@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    padding: 45px 0;
+
+    color: #000; 
+    background: #000;
+    background-color: rgba(0, 60, 255, 0.719);
+    text-align: center;
+  }
+
+body {
+    background-image: url(fotodb.png);
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 25px 20px 20px rgba(0, 0, 0, 0);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 25%;
+}
+
+.card h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.card .image {
+    margin-bottom: 10px;
+}
+
+.card img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 15px;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 5em;
+    margin-top: 10px;
+}
+.image{
+    filter: drop-shadow(0px 0px 30px #000);
+}
+.imagesp1{
+    filter: drop-shadow(0px 0px 30px #8908c1);
+}
+.imagesp2{
+    filter: drop-shadow(0px 0px 30px #7b01cd);
+}
+.imagesp3{
+    filter: drop-shadow(0px 0px 30px #fe0606);
+}
+.imagesp4{
+    filter: drop-shadow(0px 0px 30px #ffd900);
+}
